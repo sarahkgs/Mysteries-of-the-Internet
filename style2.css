@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+html{
+  background-color: #EE5089;
+}
+
+#title{
+  position: absolute;
+  width: 50%;
+  left: 40vw;
+  top: 50px;
+}
+
+@media only screen and (min-width: 500px) {
+.hiddenText{
+  display: none;
+  font-size: 10pt;
+  font-family: 'Niconne', cursive;
+  position: absolute;
+}
+
+.napkinsContainer:hover>.hiddenText{
+  display: flex;
+}
+}
+
+
+@media only screen and (min-width: 700px) {
+  .hiddenText{
+    display: none;
+    font-size: 15pt;
+    font-family: 'Niconne', cursive;
+    position: absolute;
+}
+
+.napkinsContainer:hover>.hiddenText{
+  display: flex;
+}
+}
+
+@media only screen and (min-width: 1200px) {
+  .hiddenText{
+    display: none;
+    font-size: 23pt;
+    font-family: 'Niconne', cursive;
+    position: absolute;
+}
+
+.napkinsContainer:hover>.hiddenText{
+  display: flex;
+}
+}
+
+#arrow{
+  position: absolute;
+  width: 10%;
+  z-index: 1;
+  top: 20px;
+  left: 20px;
+}
+
+.napkinsContainer{
+  position: relative;
+  display: inline-flex;
+}
+
+.napkinsContainer img{
+  width: 100%;
+}
+
+#napkin{
+  position: absolute;
+  width: 45%;
+  z-index: 4;
+  top: 200px;
+  left: -10px;
+  transform: rotate(45deg);
+}
+
+#WineText{
+  position: absolute;
+  z-index: 9;
+  left: 45%;
+  top: 28%;
+  width: 80%;
+  transform: rotate(-90deg);
+}
+
+#napkintwo{
+  position: absolute;
+  width: 50%;
+  z-index: 3;
+  top: 500px;
+  right: -100px;
+  transform: rotate(42deg);
+}
+
+#MartinisText{
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  z-index: 10;
+  width: 80%;
+}
+
+#napkinthree{
+  position: absolute;
+  width: 55%;
+  z-index: 2;
+  top: 1000px;
+  left: -100px;
+  transform: rotate(51deg);
+}
+
+#PopcornText{
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  z-index: 11;
+  width: 80%;
+  transform: rotate(-90deg);
+}
+
+#kiss{
+  width: 13%;
+  position: absolute;
+  top: 400px;
+  left: 2vw;
+  transform: rotate(-10deg);
+  z-index: 8;
+}
+
+.cocktail{
+  width: 30%;
+}
+
+#cocktailone{
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  z-index: 7;
+}
+
+#cocktailtwo{
+  position: absolute;
+  top:900px;
+  left: 100px;
+  z-index: 6;
+}
+
+#cocktailthree{
+  position: absolute;
+  top:400px;
+  right: 0px;
+  z-index: 5;
+}

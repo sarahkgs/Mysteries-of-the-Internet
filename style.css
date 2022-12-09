@@ -1,0 +1,68 @@
+html{
+  background: url("realhomescreen.png") no-repeat center fixed;
+  background-size: contain;
+  background-color: #4bc7c1;
+  background-position: right;
+}
+
+
+.itemcontainer{
+  object-fit: contain;
+  object-position: center;
+}
+
+#knife{
+  width: 15%;
+  height: auto;
+  position: absolute;
+  left: 75vw;
+  top: 28vh;
+}
+
+#hiddenknife{
+  width: 15%;
+  height: auto;
+  position: absolute;
+  left: 75vw;
+  top: 28vh;
+}
+
+#camera{
+  width: 10%;
+  height: auto;
+  position: absolute;
+  left: 45vw;
+  top: 35vh;
+}
+
+#hiddencamera{
+  width: 10%;
+  height: auto;
+  position: absolute;
+  left: 45vw;
+  top: 35vh;
+}
+
+#headphones{
+  width: 10%;
+  height: auto;
+  position: absolute;
+  left: 50vw;
+  top: 65vh;
+}
+
+#hiddenheadphones{
+  width: 10%;
+  height: auto;
+  position: absolute;
+  left: 50vw;
+  top: 65vh;
+}
+
+.hiddenImage{
+  display: none;
+}
+
+.visibleImage:hover + .hiddenImage{
+  display: block;
+}

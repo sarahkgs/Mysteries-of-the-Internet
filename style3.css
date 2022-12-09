@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Nothing+You+Could+Do&display=swap');
+
+html{
+  background-color: #F0DF43;
+}
+
+
+@media only screen and (min-width: 500px){
+  .caseText{
+    position: absolute;
+    display: none;
+    font-family: 'Nothing You Could Do', cursive;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 13px;
+    width: 130px;
+  }
+
+  #casetext1{
+    width: 160px;
+  }
+
+  .container:hover>.caseText{
+    display: flex;
+  }
+}
+
+
+@media only screen and (min-width: 800px){
+  .caseText{
+    position: absolute;
+    display: none;
+    font-family: 'Nothing You Could Do', cursive;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    width: 220px;
+  }
+
+  #casetext1{
+    width: 270px;
+  }
+
+  .container:hover>.caseText{
+    display: flex;
+  }
+}
+
+
+@media only screen and (min-width: 1200px){
+  .caseText{
+    position: absolute;
+    display: none;
+    font-family: 'Nothing You Could Do', cursive;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 30px;
+    width: 350px;
+  }
+
+  #casetext1{
+    width: 400px;
+  }
+
+
+  .container:hover>.caseText{
+    display: flex;
+  }
+}
+
+.container{
+  position: relative;
+  display: inline-flex;
+}
+
+.container img{
+  width: 100%;
+}
+
+#title{
+  position: absolute;
+  width: 40%;
+  left: 52vw;
+  top: 30px;
+}
+
+#polaroid{
+  width: 35%;
+  position: absolute;
+  z-index: 6;
+  transform: rotate(10deg);
+  left: 150px;
+  top: 150px;
+}
+
+#casetext1{
+  position: absolute;
+  z-index: 7;
+  left: 7%;
+  bottom: -2%;
+}
+
+
+#stickynote1{
+  width: 55%;
+  position: absolute;
+  top: 300px;
+  right: -100px;
+  z-index: 5;
+  transform: rotate(-15deg);
+}
+
+#casetext2{
+  position: absolute;
+  z-index: 8;
+  top: 30%;
+  left: 28%;
+  transform: rotate(5deg);
+}
+
+#stickynote2{
+  width: 60%;
+  position: absolute;
+  top:700px;
+  z-index: 3;
+}
+
+#casetext3{
+  position: absolute;
+  z-index: 9;
+  left: 32%;
+  top: 30%;
+  transform: rotate(5deg);
+
+}
+
+
+#arrow{
+  width: 10%;
+  z-index: 1;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+
+
+#rope{
+  width: 5%;
+  height: 200%;
+  position: absolute;
+  z-index: 1;
+  transform: rotate(70deg);
+  top:0px;
+  left: 500px;
+}
+
+#rope2{
+  width: 5%;
+  height: 200%;
+  left: 500px;
+  top: -400px;
+  position: absolute;
+  transform: rotate(110deg);
+  z-index: 2;
+}

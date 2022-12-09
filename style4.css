@@ -1,0 +1,120 @@
+html {
+  background-color: #274AFF;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,500&display=swap');
+
+#title {
+  position: absolute;
+  width: 50%;
+  left: 53vw;
+  top: 50px;
+}
+
+@media only screen and (min-width: 500px) {
+  .subtitleText {
+    display: none;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 10pt;
+    font-style: italic;
+    font-weight: bold;
+    color: #ffef0d;
+  }
+
+  .tvContainer:hover>.subtitleText {
+    display: flex;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .subtitleText {
+    display: none;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15pt;
+    font-style: italic;
+    font-weight: bold;
+    color: #ffef0d;
+  }
+
+  .tvContainer:hover>.subtitleText {
+    display: flex;
+  }
+}
+
+#arrow {
+  width: 10%;
+  z-index: 1;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.tvContainer {
+  position: relative;
+  display: inline-flex;
+}
+
+.tvContainer img {
+  width: 100%;
+}
+
+.subtitleText {
+  position: absolute;
+  align-items: center;
+}
+
+#tvBlueContainer {
+  width: 45%;
+  z-index: 2;
+  top: 150px;
+  left: 100px;
+  transform: rotate(10deg);
+}
+
+
+#isbelltext {
+  height: 44%;
+  top: 24%;
+  left: 14%;
+  width: 60%;
+  z-index: 5;
+}
+
+#tvDarkBlueContainer {
+  width: 50%;
+  z-index: 3;
+  position: absolute;
+  top: 300px;
+  right: 100px;
+  transform: rotate(-5deg);
+}
+
+
+#isbelltext2 {
+  height: 31%;
+  position: absolute;
+  top: 29%;
+  left: 18%;
+  width: 51%;
+  z-index: 6;
+}
+
+
+#tvOrangeContainer {
+  width: 50%;
+  z-index: 4;
+  position: absolute;
+  top: 600px;
+  left: 100px;
+  transform: rotate(5deg);
+}
+
+
+#jordantext {
+  position: absolute;
+  top: 29%;
+  left: 20%;
+  height: 34%;
+  width: 50%;
+  z-index: 7;
+}
